@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #e3f2fd;
+        }
+        header {
+            background-color: #01579b;
+            color: white;
+            padding: 20px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        section {
+            padding: 25px;
+            margin: 15px auto;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            background-color: #263238;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function checkBusSchedule() {
+            alert("Bus schedule feature coming soon!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bus Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Book Your Bus Tickets Easily</h2>
+        <p>Find the best bus services at affordable prices.</p>
+        <button onclick="alert('Booking feature coming soon!')">Book Now</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide safe and comfortable bus services across multiple cities.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Online Ticket Booking</li>
+            <li>Luxury Bus Rides</li>
+            <li>24/7 Customer Support</li>
+            <li>GPS Tracking</li>
+            <li>Onboard Entertainment</li>
+        </ul>
+    </section>
+    <section id="schedule">
+        <h2>Bus Schedule</h2>
+        <p>Check upcoming bus timings and availability.</p>
+        <button onclick="checkBusSchedule()">Check Schedule</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@busservice.com</p>
+        <p>Phone: +123 456 7890</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Bus Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
